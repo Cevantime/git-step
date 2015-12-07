@@ -1,0 +1,6 @@
+#!/bin/bash -e
+git reset --hard
+HEAD=$(git rev-parse HEAD)
+FORWARD=$(git log --format='%H %P' --all | grep -F " $HEAD" | cut -f1 -d' ')
+HASH=$(git describe --always $FORWARD)
+git checkout $HASH
