@@ -8,7 +8,7 @@ For example it is common to write code whilst teaching, sometimes errors are mad
 - Create a git repository
 - Commit every time the next step in the code is written
 - Checkout the initial commit
-- Run git step to step through
+- Run git step to step through the code changes
 
 Now we can step through the code much like a slide show, however we can make temporary changes, compile the code and run the code.
 
