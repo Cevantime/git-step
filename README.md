@@ -19,7 +19,7 @@ Now we can step through the code much like a slide show, however we can make tem
 3. `git step`
 
 ###Warning
-git step will wipe all currently staged changes, to make it stress free to manipulate the code.
+git step will wipe all currently staged changes, to make manipulating code stress free.
 
 ###The Code
 ```bash
