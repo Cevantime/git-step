@@ -19,7 +19,7 @@ Now we can step through the code much like a slide show, however we can make tem
 3. `git step`
 
 ###Warning
-git step will wipe all currently staged changes, to make it stress free manipulate the code.
+git step will wipe all currently staged changes, to make it stress free to manipulate the code.
 
 ###The Code
 ```bash
@@ -30,3 +30,4 @@ FORWARD=$(git log --format='%H %P' --all | grep -F " $HEAD" | cut -f1 -d' ')
 HASH=$(git describe --always $FORWARD)
 git checkout $HASH
 ```
+Credit to Kohsuke Kawaguchi for writing this helpful Gist: https://gist.github.com/kohsuke/7590246
